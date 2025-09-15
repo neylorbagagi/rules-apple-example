@@ -1,5 +1,5 @@
 # Bazel build outputs
-bazel-*/
+bazel-*
 
 # Xcode specific files
 *.xcuserdatad/
@@ -37,7 +37,6 @@ build/
 
 # Other
 *.lock
-*.plist
 *.pyc
 *.pyo
 *.class
