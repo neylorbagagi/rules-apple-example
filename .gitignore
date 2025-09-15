@@ -1,0 +1,48 @@
+# Bazel build outputs
+bazel-*/
+
+# Xcode specific files
+*.xcuserdatad/
+*.xcuserdata/
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+
+# Derived data
+DerivedData/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.DS_Store
+
+# Build artifacts
+build/
+*.o
+*.d
+*.bin
+*.exe
+*.app
+*.ipa
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Other
+*.lock
+*.plist
+*.pyc
+*.pyo
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
